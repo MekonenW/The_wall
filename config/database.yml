@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: the_wall_production
-  username: the_wall
+  username: ubuntu
   password: <%= ENV['THE_WALL_DATABASE_PASSWORD'] %>
