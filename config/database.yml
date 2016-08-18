@@ -82,4 +82,4 @@ production:
   <<: *default
   database: the_wall_production
   username: ubuntu
-  password: <%= ENV['THE_WALL_DATABASE_PASSWORD'] %>
+  password: 
